@@ -8,6 +8,8 @@ import authenticateToken from './middleware/authenticateToken'
 const app = express()
 app.use(authenticateToken)
 
+//test
+
 const port = process.env.PORT || 3000
 
 // Load service configurations
